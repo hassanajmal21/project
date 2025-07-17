@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-         E-commerence
+        Dealyst
           </Link>
 
           {/* Search Bar */}

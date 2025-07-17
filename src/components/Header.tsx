@@ -4,6 +4,7 @@ import { Search, ShoppingCart, Heart, User, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useWishlist } from '../context/WishlistContext';
+import logo from '../logo/Black White Minimalist Professional Initial Logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,8 +28,8 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-        Dealyst
+          <Link to="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors" >
+       <img src={logo} alt="Logo" style={{ width: '64px' }} />
           </Link>
 
           {/* Search Bar */}

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">ShopHub</h3>
+            <h3 className="text-xl font-bold mb-4">Luxenic </h3>
             <p className="text-gray-400 mb-4">
               Your one-stop destination for quality products at amazing prices. 
               Shop with confidence and enjoy fast, secure delivery.
@@ -90,7 +90,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail size={16} className="mr-2 text-gray-400" />
-                <span className="text-gray-400">support@shophub.com</span>
+                <span className="text-gray-400">support@Luxenic .com</span>
               </div>
               <div className="flex items-center">
                 <Phone size={16} className="mr-2 text-gray-400" />

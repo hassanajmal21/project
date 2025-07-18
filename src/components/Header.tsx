@@ -4,7 +4,7 @@ import { Search, ShoppingCart, Heart, User, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import { useWishlist } from '../context/WishlistContext';
-import logo from '../logo/Black White Minimalist Professional Initial Logo.png';
+import logo from '../logo/Black White Minimalist Professional Initial Logo (2).png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
